@@ -4,15 +4,33 @@
     color: rgb(235, 229, 229);
 }
 
-h1{
+h1,h3{
     font-size: 3rem;
     justify-content: center;
     text-align: center;
 }
-
-.result{
-    justify-content: center;
-    text-align: center;
-    font-size: 2.5rem;
+h3{
+    font-size: 1.8rem;
+}
+#btnCity{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+input{
+    background-color: black;
+}
+p{
+    color: rgb(4, 37, 203);
+    font-weight: 600;
+    font-size: 1.3rem;
 }
 
+#lastSearch{
+    color: rgb(216, 209, 209);
+    margin: 15px;
+}
+
+#name{
+    text-align: right;
+    justify-content: right;
+}

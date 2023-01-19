@@ -5,8 +5,8 @@ actualDate.innerHTML = dayjs().format("dddd, MMMM D.");
 const apiKey = "1facf4f0c87aa3b6bbc4c5a2f188d2bc";
 let btnCity = document.querySelector("#btnCity");
 let userSearch = document.querySelector("#userSearch");
-let lastSearch = document.querySelector("#lastSearch");
-let allCities = JSON.parse(localStorage.getItem("allCities")) || [];
+let lastSearch = document.querySelector("#lastSearch"); 
+
 
 
 function getData () {

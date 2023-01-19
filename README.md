@@ -25,8 +25,8 @@ This challenge 6 is to consult the weather of a city and to display 5 days after
 - THEN I am again presented with current and future conditions for that city
 
 
-![Reference image.]()
+![Reference image.](./images/Suncheck.png)
 
 [GitHub/ Jeacqueline's Repository.](https://github.com/Jeacqueline/Suncheck)
 
-[GitHub/ Jeacqueline/ Suncheck]()
+[GitHub/ Jeacqueline/ Suncheck](https://jeacqueline.github.io/Suncheck/)
