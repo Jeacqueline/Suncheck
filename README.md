@@ -1,8 +1,7 @@
 # Suncheck
 
 ## Challenge 6
-descripción
-url de donde saque cosas
+This challenge 6 is to consult the weather of a city and to display 5 days after the current day, you can save the search to consult it. Some resources used to complete the challenge:
 - https://developer.mozilla.org/en-US/docs/Web/API/GeolocationCoordinates/longitude
 - TDM-VIRT-FSF-PT-10-2022-U-LOLC 
 - https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys 
@@ -28,6 +27,6 @@ url de donde saque cosas
 
 ![Reference image.]()
 
-[GitHub/ Jeacqueline's Repository.]()
+[GitHub/ Jeacqueline's Repository.](https://github.com/Jeacqueline/Suncheck)
 
 [GitHub/ Jeacqueline/ Suncheck]()
