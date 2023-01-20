@@ -13,22 +13,36 @@
         <h3 id="currentDay" class="lead"></h3>
     </header>
 
-    <div>
-        <input type="text" id="userSearch" placeholder="Suncheck">
-        <button type="button" id="btnCity">Search</button>
-        <div>
-            <p>Last search: </p>
-            <div id="lastSearch"></div>
+    <section id="left">
+        <div class="container">
+            <input type="text" placeholder="Suncheck" id="userSearch">
+            <button type="button" id="btnCitySearch">Search 🥳</button>
         </div>
-    </div>
 
-    <div class="card">
-        <div id="name">jhg</div>
-    </div>
+        <div class="recentSearch">
+            <h3>Last Search: </h3>
+            <div id="recentsSearch"></div>
+        </div>
 
-    <div class="TempWindHum" id="5-conditions">
+        <div class="cityCard">
+            <div class="displayCities">
+                <p id="displayCity">Name</p>
+            </div>
+            <div class="conditions">
+                <span id="icons"></span>
+                <div>Temp: <span id="temp"></span> °C</div>
+                <div>Wind: <span id="temp"></span> MPH</div>
+                <div>Humidity: <span id="temp"></span> %</div>
+            </div>
+        </div>
+        </section>
+        <section id="right">
+        <div class="5-cards">
+            <div class="content">5-Day Forecast: </div>
+            <div class="5contentcards" id="forecast"></div>
+        </div>
+    </section>
 
-    </div>
 
     
 

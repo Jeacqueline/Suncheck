@@ -1,7 +1,10 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(87, 159, 223);
     color: rgb(235, 229, 229);
+    box-sizing: border-box;
 }
 
 h1,h3{
@@ -12,25 +15,38 @@ h1,h3{
 h3{
     font-size: 1.8rem;
 }
-#btnCity{
-    color: rgb(255, 255, 255);
-    background-color: black;
+#currentDay{
+    color: darkslateblue;
 }
 input{
+    background: darkslateblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btnCitySearch{
+    background: darkviolet;
+    border-radius: 8px;
+}
+
+#recentsSearch{
     background-color: black;
-}
-p{
-    color: rgb(4, 37, 203);
-    font-weight: 600;
-    font-size: 1.3rem;
-}
-
-#lastSearch{
-    color: rgb(216, 209, 209);
-    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
 }
 
-#name{
-    text-align: right;
-    justify-content: right;
+.conditions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
